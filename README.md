@@ -6,6 +6,6 @@ jquery-back-top : 返回页面顶部；
 
 jquery-page-scroll : 全屏模块翻页；
 
-jquery-scrollbar : 页面滚动条兼容 IE8 以上；
+jquery-scrollbar : 页面滚动条样式 兼容 IE8 以上；
 
 jquery-validate : 表单验证插件；
