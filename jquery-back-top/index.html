@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>back-top</title>
+	<script src="jquery-1.9.1.js"></script>
+	<script src="scroll-back-top.js"></script>
+	<style>
+		body{height:3000px;}
+		div{
+			width: 30px;
+			height:30px;
+			background: green;
+			position: fixed;
+			right: 20px;
+			bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<script>
+	$(document).backTop({
+		 clickWho : 'div',		//click who back top
+         whatHeight: '800',		//scrollbar how tall show back button
+         fadeInOut: '800',		//fadeIn or fadeOut speed
+         scrollSpeed: '520',	//scrollbar back top speed
+         showHide: true 		//yes or no hide button 
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>scrollBar</title>
+	<script src="jquery-1.9.1.js"></script>
+	<script src="jquery.nicescroll.min.js"></script>
+	<style>
+		body{height: 1000px;}
+		.scroll-bar{width:500px;height:300px;overflow:hidden;border:1px solid red;}
+		.scrollbar-child{height:1000px;}
+	</style>
+</head>
+<body>
+	<div class="scroll-bar">
+		<div class="scrollbar-child"></div>
+	</div>
+	<script>
+		$("body").niceScroll({
+			cursorwidth:"5px",			//scrollbar width
+			cursorcolor: "#788087",		//scrollbar color
+			railalign: "right",			//scrollbar Y site left or right
+			railvalign:"borrom",		//scrollbar X site top or bottom
+			cursorborder:"1px solid #fff",//scrollbar border
+			cursorborderradius:"5px",	//scrollbar border-radius
+			background:"",				//scrollbar area background-image
+			boxzoom: true,				//yes or no hide scrollbar
+			scrollspeed:60,				//scrollbar slide speed
+		}); 
+		$('.scroll-bar').niceScroll({
+			cursorwidth:"2px",			//scrollbar width
+			cursorcolor: "#000",		//scrollbar color
+		});
+	</script>
+</body>
+</html>
