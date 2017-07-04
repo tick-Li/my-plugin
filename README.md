@@ -11,3 +11,5 @@ jquery-scrollbar : 页面滚动条样式 兼容 IE8 以上；
 jquery-validate : 表单验证插件；
 
 jquery-open-door : 鼠标滑过开门特效；
+
+jquery-hover-img-big : 鼠标滑过/滑出缩放图片
