@@ -1,0 +1,58 @@
+.open-door .qitem {
+	width:126px;
+	height:126px;	
+	border:4px solid #222;	
+	margin:5px 5px 5px 0;
+	background: url('images/bg.gif') no-repeat;
+	/* required to hide the image after resized */
+	overflow:hidden;
+	/* for child absolute position */
+	position:relative;
+	/* display div in line */
+	float:left;
+	cursor:hand; cursor:pointer;
+}
+.open-door .qitem img {
+	border:0;
+	/* allow javascript moves the img position*/
+	position:absolute;
+	z-index:200;
+}
+.open-door .qitem .caption {
+	position:absolute;
+	z-index:0;	
+	color:#ccc;
+	display:block;
+}
+.open-door .qitem .caption h4 {
+	font-size:12px;
+	padding:10px 5px 0 8px;
+	margin:0;
+	color:#369ead;
+}
+.open-door .qitem .caption p {
+	font-size:10px;	
+	padding:3px 5px 0 8px;
+	margin:0;
+}
+/* Setting for corners */
+.open-door .topLeft, .topRight, .bottomLeft, .bottomRight {
+	position:absolute;
+	background-repeat: no-repeat; 
+	float:left;
+}
+.open-door .topLeft {
+	background-position: top left; 	
+} 
+.open-door .topRight {
+	background-position: top right; 
+} 
+.open-door .bottomLeft {
+	background-position: bottom left; 
+} 
+.open-door .bottomRight {
+	background-position: bottom right; 
+}
+.open-door .clear {
+	clear:both;	
+}
