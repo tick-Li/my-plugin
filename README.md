@@ -9,3 +9,5 @@ jquery-page-scroll : 全屏模块翻页；
 jquery-scrollbar : 页面滚动条样式 兼容 IE8 以上；
 
 jquery-validate : 表单验证插件；
+
+jquery-open-door : 鼠标滑过开门特效；
